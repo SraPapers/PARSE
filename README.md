@@ -13,10 +13,10 @@ PARSE combines gene expression programming (GEP) with sparse regression; its ove
 
 ## Dependencies
 
-- Python 3.13.11
+- Python  3.13.11
 - geppy
 - operator 
-- torch 2.10.0+cu128 (CUDA Version: 12.8)
+- torch  2.10.0+cu128 (CUDA Version: 12.8)
   
 All computations are performed on a workstation equipped with dual AMD EPYC 7K83 CPUs and an NVIDIA GeForce RTX 4090D GPU. 
 
