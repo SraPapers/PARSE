@@ -23,6 +23,6 @@ All computations are performed on a workstation equipped with dual AMD EPYC 7K83
 ## Run cases
 To run PARSE, users should split input variables into base terms and functional terms, and assign corresponding dimensional units to each input variable.
 ```
-Function_names =  ['u', 'v','rho','p','miu']
-Gradient_names =  ['u_x','u_y','v_x','v_y','p_x','p_y','u_xx','u_yy','v_xx', 'v_yy','cons']
+Function_names =  ['u','v','rho','p','miu']
+Gradient_names =  ['u_x','u_y','v_x','v_y','p_x','p_y','u_xx','u_yy','v_xx','v_yy','cons']
 ```
