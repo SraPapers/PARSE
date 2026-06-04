@@ -7,5 +7,5 @@ Many engineering systems exhibit partially known governing structures, where dif
 PARSE combines gene expression programming (GEP) with sparse regression; its overall architecture is shown in __Fig.The PARSE framework.__ Within this pipeline, GEP automatically generates candidate nonlinear functional expressions by searching for unknown functional forms. Automatic differentiation (AD) calculates gradients of flow field variables.  We assemble an expanded candidate library by combining GEP-derived functional terms with AD-computed gradient information. As an initial filtering step, a dimensional consistency constraint is enforced to discard candidate expressions inconsistent with physical dimensional laws. Sparse regression is  performed on the refined library to select dominant terms and fit corresponding coefficients. We further apply a function pruning scheme to measure per-term importance and remove redundant candidates, improving model sparsity and generalization. This selection workflow reduces overfitting from large candidate pools and permits joint recovery of governing equation structures and unknown coefficients.
 
 <div align="center">
-<img src="figures/Frame.png" width="200">
+<img src="figures/Frame.png" width="500">
 </div>
