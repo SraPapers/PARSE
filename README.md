@@ -21,8 +21,7 @@ PARSE combines gene expression programming (GEP) with sparse regression; its ove
 All computations are performed on a workstation equipped with dual AMD EPYC 7K83 CPUs and an NVIDIA GeForce RTX 4090D GPU. 
 
 ## Run cases
-
-If someone wants to use PARSE, they need to separate the input parameters into the base term part and the function term part, and then specify the dimensional units for each input.
+To run PARSE, users should split input variables into base terms and functional terms, and assign corresponding dimensional units to each input variable.
 ```
 Function_names =  ['u', 'v','rho','p','miu']
 Gradient_names =  ['u_x','u_y','v_x','v_y','p_x','p_y','u_xx','u_yy','v_xx', 'v_yy','cons']
