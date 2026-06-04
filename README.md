@@ -10,3 +10,10 @@ PARSE combines gene expression programming (GEP) with sparse regression; its ove
 <div align="center">
 <img src="figures/Frame.png" width="900">
 </div>
+
+## Dependencies
+
+- Python 3.13
+- geppy
+- operator 
+- torch (12.8) 
