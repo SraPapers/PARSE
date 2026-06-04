@@ -17,3 +17,10 @@ PARSE combines gene expression programming (GEP) with sparse regression; its ove
 - geppy
 - operator 
 - torch (12.8) 
+## Run cases
+
+If someone wants to use PARSE, they need to separate the input parameters into the base term part and the function term part, and then specify the dimensional units for each input.
+```
+Function_names =  ['u', 'v','rho','p','miu']
+Gradient_names =  ['u_x','u_y','v_x','v_y','p_x','p_y','u_xx','u_yy','v_xx', 'v_yy','cons']
+```
