@@ -125,7 +125,7 @@ def LossFunc(individual, data_dict, Y, names, Gradient_names,
         local_best = [ij for ij, k in zip(local_ij, keep_cpu) if k]
 
 
-    # 8) individual
+    # individual
     individual.coef = coef_best.detach().cpu().numpy().reshape(-1).copy()
     individual.terms = terms_best
     individual.local_ij = local_best
