@@ -56,18 +56,15 @@ def compute_loss(X, Y, coef, alpha=1e-3, ridge_tol=1e-1):
     Yp = X @ coef
     residual = Yp - Y
 
-    # 全局归一化均方根误差
     data_loss = torch.sqrt(
         torch.mean(residual ** 2) /
         (torch.mean(Y ** 2) + 1e-12)
     )
 
-    # 有效项数量
     w_valid_sum = int(
         (torch.abs(coef) > ridge_tol).sum().item()
     )
 
-    # 数据拟合损失 + 方程复杂度惩罚
     loss = data_loss + alpha * w_valid_sum
 
     return float(loss.detach().cpu().item()), w_valid_sum
