@@ -18,7 +18,7 @@ s = 0
 random.seed(s)
 np.random.seed(s)
 #%% ------------------------ Input data ------------------------
-td  = np.loadtxt('../Data/Taylor_Green_vortex_LBM/Taylor_Green_vortex.dat',  skiprows=1)
+td  = np.loadtxt('../../Data/Taylor_Green_vortex_LBM/Taylor_Green_vortex.dat',  skiprows=1)
 # x,y,u,v,p,rho,u_x,u_y,v_x,v_y,p_x,p_y,u_xx,u_yy,v_xx,v_yy,u_t,v_t
 
 x   = td[:, 0:1]
