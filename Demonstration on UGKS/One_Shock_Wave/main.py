@@ -18,7 +18,7 @@ s = 0
 random.seed(s)
 np.random.seed(s)
 #%% ------------------------ Input data ------------------------
-td  = np.loadtxt('../../data/One_Shock_Wave/One_Shock_Wave.dat',  skiprows=1)
+td  = np.loadtxt('../../Data/One_Shock_Wave/One_Shock_Wave.dat',  skiprows=1)
 
 
 # u_t,x,u,u_x,u_xx,u_xxx
